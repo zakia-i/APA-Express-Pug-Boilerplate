@@ -1,0 +1,19 @@
+//- main-layout.pug
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title Home Page
+    body
+        header
+            nav
+                ul
+                    li
+                        a(href="/") Home
+                    li
+                        a(href="/list") List
+        h1 This h1 is from the layout.
+        hr
+        block content
+        section
+            h2 This h2 is also from the layout
+        block more_content

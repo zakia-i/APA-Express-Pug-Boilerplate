@@ -1,0 +1,9 @@
+//- list.pug
+extends layouts/main-layout.pug
+block content
+    p This content is from list.pug!
+    p About my cool site!
+    p This is a boilerplate for Express with Pug.
+    ul
+      for food in foods
+        li= food
